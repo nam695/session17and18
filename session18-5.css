@@ -30,6 +30,7 @@ button {
 .add-btn {
     background-color: #2d8cff;
     color: white;
+    margin: 5px;
   }
 .edit-btn {
     background-color: #f1c40f;
@@ -50,7 +51,7 @@ th, td {
     text-align: center;
   }
 #search {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
