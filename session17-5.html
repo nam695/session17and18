@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Máy tính đơn giản</title>
+  <link rel="stylesheet" href="./session17-5.css">
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" class="display" disabled />
+    <div class="buttons">
+      <button class="operator" onclick="append('+')">+</button>
+      <button class="operator" onclick="append('-')">-</button>
+      <button class="operator" onclick="append('*')">x</button>
+      <button class="operator" onclick="append('/')">÷</button>
+
+      <button class="number" onclick="append('7')">7</button>
+      <button class="number" onclick="append('8')">8</button>
+      <button class="number" onclick="append('9')">9</button>
+      <button class="equal" onclick="calculate()">=</button>
+
+      <button class="number" onclick="append('4')">4</button>
+      <button class="number" onclick="append('5')">5</button>
+      <button class="number" onclick="append('6')">6</button>
+
+      <button class="number" onclick="append('1')">1</button>
+      <button class="number" onclick="append('2')">2</button>
+      <button class="number" onclick="append('3')">3</button>
+
+      <button class="number" onclick="append('0')">0</button>
+      <button class="number" onclick="append('.')">.</button>
+      <button class="number" onclick="clearDisplay()">C</button>
+    </div>
+  </div>
+  <script src="./session17-5.js"></script>
+</body>
+</html>

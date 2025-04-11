@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    padding: 20px;
+  }
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+  }
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+.add-btn {
+    background-color: #2d8cff;
+    color: white;
+  }
+.edit-btn {
+    background-color: #f1c40f;
+    margin-right: 5px;
+  }
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Quản lý Sinh viên</title>
+  <link rel="stylesheet" href="./session18-5.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quản lý danh sách sinh viên</h1>
+    <div>
+      <input type="text" id="name" placeholder="Tên sinh viên">
+      <input type="number" id="age" placeholder="Tuổi">
+      <input type="text" id="class" placeholder="Lớp">
+      <button class="add-btn" onclick="addStudent()">Thêm sinh viên</button>
+    </div>
+    <input type="text" id="search" placeholder="Tìm kiếm sinh viên..." onkeyup="searchStudent()">
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Tên</th>
+          <th>Tuổi</th>
+          <th>Lớp</th>
+          <th>Hành động</th>
+        </tr>
+      </thead>
+      <tbody id="studentTable"></tbody>
+    </table>
+  </div>
+<script src="./session18-5.js"></script>
+</body>
+</html>
